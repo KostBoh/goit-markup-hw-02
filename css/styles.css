@@ -1,10 +1,68 @@
-p {
-    background-color: yellow;
-}
-
+/* base style */
 body {
-    background-color: blueviolet;
+    color: 2E2F42;
 }
+/* reset styles */
 .list {
     list-style: none;
 }
+.link {
+
+}
+
+/* Header styles */
+.header-link {
+    color: #2E2F42;
+}
+.header-link:hover, 
+.header-link:focus {
+    color: #404BBF;
+}
+
+
+/* all style */
+.header {}
+
+.header-link {}
+
+.hero {}
+
+.hero-title {}
+
+.button {}
+
+.principles {}
+
+.principles-title {}
+
+.principles-list {}
+
+.principles-item {}
+
+.principles-subtitle {}
+
+.principles-text {}
+
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-subtiltle {}
+
+.team-text {}
+
+.footer {}
+
+.footer-text {}
