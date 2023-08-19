@@ -50,6 +50,9 @@ img {
     font-family: inherit;
     cursor: pointer;
     color: currentColor;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 /* Header styles */
@@ -101,13 +104,21 @@ img {
     letter-spacing: 0.02em;
 }
 
+
 .button-accent {
     color:  var(--light-cl);
-    background-color: var(--accent-cl);    
-    font-weight: 500;
-    line-height: 1.5;       
-    letter-spacing: 0.04em;
+    background-color: var(--accent-cl);
 }
-.button-accent:hover{
+.button-accent:hover,
+.button-accent:focus {
     background-color: var(--accent-hover-cl);
+}
+.button-portfolio {
+    color: var(--accent-cl);    
+    background: #F4F4FD;
+}
+.button-portfolio:hover,            
+.button-portfolio:focus {
+    background-color: var(--accent-hover-cl);
+    color: var(--light-cl);        
 }
