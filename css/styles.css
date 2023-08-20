@@ -1,5 +1,5 @@
 :root {
-    --main-font: roboto;
+    --main-font: Roboto;
     --accent-cl: #4D5AE5;
     --accent-hover-cl: #404BBF;
     --main-cl: #2E2F42;
@@ -10,9 +10,9 @@
 
 /* base styles */
 body {
-    font-family: var(--main-font), roboto, sans-serif;
-    color: var(--main-tx-cl), #434455;
-    background-color: var(--light-cl), #FFFFFF;
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 .section-title {
         font-size: 36px;
