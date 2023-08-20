@@ -32,14 +32,10 @@ body {
     letter-spacing: 0.02em;
 }
 /* reset styles start*/
-address {
+.address {
     font-style: normal;
 }
-/* img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-} */
+
 .list {
     list-style: none;    
 }
@@ -61,6 +57,9 @@ address {
 .header-nav-link {
     color: inherit;
 }
+.header-list {
+    color: var(--main-cl);
+}
 .header-nav-link:hover, 
 .header-address-link:hover,
 .header-nav-link:focus,
@@ -75,7 +74,6 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    /* text-align: left;  */
 }
 
 .header-logo-accent {
