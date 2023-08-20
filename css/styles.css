@@ -154,3 +154,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* Portfolio styles */
+
+.button-portfolio {
+    font-size: 16px;
+    letter-spacing: 0.04em;
+}
