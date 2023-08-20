@@ -35,12 +35,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.team {
-    background-color: #F4F4FD;
-}
-.team-item {
-    background-color: #FFFFFF;
-}
+
 /* reset styles start*/
 .address {
     font-style: normal;
@@ -101,7 +96,6 @@ body {
     letter-spacing: 0.02em;
     }
 
-
 /* Hero styles */
 
 .hero {
@@ -116,7 +110,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
-
 
 .button-accent {
     font-size: 16px;
@@ -136,4 +129,26 @@ body {
 .button-portfolio:focus {
     background-color: var(--accent-hover-cl);
     color: var(--light-cl);        
+}
+
+/* Team styles */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+/* Footer styles */
+
+.footer {
+    background-color: #2E2F42;
+}
+.footer-logo-accent {
+    color: #F4F4FD;
+}
+.footer-text {
+    color: #F4F4FD;
 }
