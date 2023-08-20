@@ -24,7 +24,9 @@ body {
 .section-subtitle {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--main-cl);
 }
 .section-text {
     color: var(--main-tx-cl);        
