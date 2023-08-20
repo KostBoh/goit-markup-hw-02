@@ -20,6 +20,8 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        text-align: center;
+        color: var(--main-cl);
 }
 .section-subtitle {
     font-size: 20px;
@@ -32,6 +34,12 @@ body {
     color: var(--main-tx-cl);        
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-item {
+    background-color: #FFFFFF;
 }
 /* reset styles start*/
 .address {
