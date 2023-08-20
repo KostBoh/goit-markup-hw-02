@@ -104,10 +104,13 @@ body {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 
 .button-accent {
+    font-size: 16px;
+    letter-spacing: 0.04em;
     color:  var(--light-cl);
     background-color: var(--accent-cl);
 }
