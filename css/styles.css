@@ -10,8 +10,9 @@
 
 /* base styles */
 body {
-    font-family: var(--main-font), sans-serif;
-    color: var(--main-cl);
+    font-family: var(--main-font), roboto, sans-serif;
+    color: var(--main-tx-cl), #434455;
+    background-color: var(--light-cl), #FFFFFF;
 }
 .section-title {
         font-size: 36px;
@@ -34,11 +35,11 @@ body {
 address {
     font-style: normal;
 }
-img {
+/* img {
     display: block;
     max-width: 100%;
     height: auto;
-}
+} */
 .list {
     list-style: none;    
 }
@@ -72,7 +73,7 @@ img {
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-align: left; 
+    /* text-align: left;  */
 }
 
 .header-logo-accent {
